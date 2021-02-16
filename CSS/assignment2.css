@@ -1,0 +1,69 @@
+/* For main section assigning 800 * 500 px space and vertically and horizontally centered */
+.main-section{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+/* For artical one with heading  */
+.first-artical{
+    height: 36%;
+    margin: 0.5em 0.5em 0em 0.5em;
+    background-color: #ff9999;
+    border: 1px solid black;
+}
+.lorem-heading p{
+    font-size: 2.2em;
+    text-align: left;
+    margin: 0.5em 2em 0.5em 2.5em;
+}
+.lorem-para{
+    font-size: 1.4em;
+    padding: 0.7em 0em 0em 0em;
+    margin: 0em 0em 0em 3em ;
+}
+/* For artical containing Image and about me part */
+.img-artical{ 
+    height: 59%;
+    border: 1px solid black;
+    margin: 0em 0.5em 0em 0.5em;
+}
+/* For the image */
+.column1{
+    height: 96%;
+    float: left;
+    width: 70%;
+    padding: 5px;
+    background-color: yellow;
+    border-right: 1px solid black;
+}
+#lorem{
+    width: 100%;
+    height: 100%;
+}
+/* For About me image  */
+.column2{
+    float: right;
+    width: 27%;
+    height: 96%;
+    padding: 5px;
+    text-align: center;
+    background-color: #ececfb;
+}
+#icon{
+    height: 55%;
+    width: 70%;
+}
+/* For about me heading and paragraph */
+#about-me{
+    margin: 0 0 0 0;
+    font-size: 1.8em;
+}
+.column2 p{
+    margin: 0 0 0 0;
+    font-size: 1.1em;
+    padding: 0px 11px 0px 11px;
+}
