@@ -1,0 +1,83 @@
+/* For setting browser's default margins to 0 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* For background color and text color */
+body{
+    background-color: #D8DA3D;
+    color: #80007E;
+}
+/*For floating list*/
+ul{
+    list-style: none;
+    float: left;
+    margin: 2em 0em 0em 0.3em;
+}
+li{
+    font-size: 1.2em;
+    font-family: Georgia, serif;
+    background-color: aliceblue;
+    padding: 7px 45px 7px 5px;
+    margin: 0.5em;
+}
+/* For the color at the end of item in list */
+li:nth-child(2n){
+    border-right: 20px solid #0000FF;
+}
+li:nth-child(2n+1)
+{
+    border-right: 20px solid #FF7F00;
+}
+/* For Heading My first styled page*/
+h1{
+    font-size: 2.5em;
+    font-family: sans-serif;
+    padding-top: 0.45em;
+    margin-left: 7.5em;
+}
+/* For the welcome message and other two lines */
+#welcome{
+    font-size: 1.35em;
+    font-family: serif;
+    line-height: 2em;
+    margin-left: 14em;
+    padding: 1em 0em 3em 0em;
+    border-bottom: 2px #80007E dotted;
+}
+/* For 3 lorem lines in middle */
+#middle{
+    font-size: 1.5em;
+    font-family: serif;
+    line-height: 2em;
+    padding: 1em 0em 1.5em 0em;
+    margin-left: 12.5em;
+}
+#middle p{
+    color: black;
+    margin-right: 1em;
+    padding: 0em 0.5em 0em 0.5em;
+}
+#m-first{
+    text-align: left;
+    margin-bottom: 1em;
+    border: 2px dashed black;
+}
+#m-second{
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 1em;
+    border: 2px dashed #FF7F00;
+}
+#m-third{
+    text-align: center;
+    font-weight: bold;
+    border: 2px dotted #0000FF;
+}
+/* For last 2 lines */
+#bottom{
+    font-size: 1.2em;
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin: 1em 0em 0em 15.5em;
+}
