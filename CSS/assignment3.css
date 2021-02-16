@@ -1,0 +1,34 @@
+/* Setting containers border and fixed height */
+.container-1, .container-2{
+    height: 350px;
+    border: 2px solid black;
+}
+.container-1 p, .container-2 p{
+    margin: 0.5em 0 0 0.5em;
+}
+/* For displaying image from topmost position */
+.container-1 div{
+    background-image: url(../images/Assignment-3.PNG);
+    background-size: 100%;
+    height: 320px;
+}
+.container-2{
+    margin: 2em 0 2em 0;
+}
+/* For displaying image from bottom most position */
+.container-2 div{
+    background-image: url(../images/Assignment-3.PNG);
+    background-position: bottom;
+    background-size: 100%;
+    height: 320px;
+}
+/* For the 500*300 size section */
+.container-3 div{
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    background-image: url(../images/Assignment-3.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
