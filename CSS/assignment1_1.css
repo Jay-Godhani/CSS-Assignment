@@ -1,0 +1,47 @@
+/* For setting browser's default margins to 0 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* For background color and text color */
+body{
+    background-color: #D8DA3D;
+    color: #80007E;
+}
+/*For floating list*/
+ul{
+    list-style: none;
+    float: left;
+    margin: 2em 0em 0em 0.3em;
+}
+li{
+    font-size: 1.2em;
+    font-family: Georgia, serif;
+    background-color: aliceblue;
+    padding: 7px 45px 7px 5px;
+    margin: 0.5em;
+    border-right: 20px solid black;
+}
+/* For Heading My first styled page*/
+h1{
+    font-size: 2.5em;
+    font-family: sans-serif;
+    padding-top: 0.45em;
+    margin-left: 7.5em;
+}
+/* For the welcome message and other two lines */
+#welcome{
+    font-size: 1.35em;
+    font-family: serif;
+    line-height: 2em;
+    margin-left: 14em;
+    padding: 1em 0em 3em 0em;
+    border-bottom: 2px #80007E dotted;
+}
+/* For last 2 lines */
+#bottom{
+    font-size: 1.2em;
+    font-family: Georgia, serif;
+    font-style: italic;
+    margin: 1em 0em 0em 15.5em;
+}
